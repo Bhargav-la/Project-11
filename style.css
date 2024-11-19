@@ -1,0 +1,37 @@
+input[type="text"]{
+    border: 2x solid green;
+}
+
+input[type="time"]{
+    border: 2x solid palevioletred;
+}
+
+ul > li{
+    color: green;
+}
+title + p{
+    font-weight: lighter;
+    color:mediumseagreen ;
+}
+
+a:hover{
+    color:lightblue;
+}
+
+li:nth-child(2){
+    background-color:violet ;
+}
+
+div:not(.class1){
+    border: 2px dashed red;
+}
+
+.decorated::before{
+    content: star;
+    color: teal;
+}
+
+p::first-letter{
+    font-size: 200%;
+    color: mediumpurple;
+}
